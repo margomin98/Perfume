@@ -10991,9 +10991,8 @@ h3 {
 }
 .sold p {
   position: absolute;
-  font-weight: bold;
   font-size: 20px;
   bottom: 45%;
-  left: 45%;
+  left: 40%;
   color: #ffff;
 }
