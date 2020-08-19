@@ -1,0 +1,94 @@
+$white:#ffff;
+
+.navbar{
+   height: 56px;
+}
+.index{
+  background-size: cover;
+    background: url(/image/index.png) fixed no-repeat;
+    background-position: center;
+   height: 920px;
+   padding-top:295px;
+ color:$white;
+ padding-left: 62%;
+ 
+ .h1 p{
+   font-size: 300px;
+ }
+
+}
+.shopnow{
+    margin-top: 16px;
+    height: 60px;
+    color:$white;
+    padding-top: 12px;
+    width: 350px;
+}
+
+.content1,.content3{
+  padding-bottom:auto;
+  padding-top: 150px;
+  padding-left: 90px;
+}
+  
+
+.more{
+  font-size:16px;
+  padding-top: 16px;
+
+}
+.content1 .content2 .content3,.title{
+font-size: 32px;
+}
+.content2,.content4{
+  padding-left: 115px;
+  padding-right:89px;
+}
+.content2{
+  padding-top: 125px;
+}
+.content4{
+  padding-top: 90px;
+ 
+  .item{
+    font-size:50px;
+  }
+  .info{
+    font-size: 16px;
+ 
+  }
+
+  .plan{
+    margin-top: 60px;
+  }
+  .title{
+    font-size:24px;
+    font-weight: bold;
+
+  }
+}
+
+.list{
+ 
+ background-color: #E0E0E0;
+background-size:auto;
+
+ .card-title{
+   font-size:32px;
+ }
+ 
+}
+
+.sold{
+  position: relative;
+  
+ p{
+    position: absolute;
+    font-weight: bold;
+    font-size:20px;
+   bottom: 45%;
+   left:45%;
+   color: $white;
+
+  }
+}
