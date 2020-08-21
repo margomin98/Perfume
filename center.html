@@ -79,41 +79,44 @@
 
 
        
-       <div class="member mt-10  ">
+       <div class="member mt-10 ">
 <div class="container-fluid d-flex">
-    <div class="row col-2">
+    <div class="row">
+        <div class="col-2">
        <div class="membercenter">
            <div class='center  text-grey1'>
                <div class="membertitle1 mb-12"><strong>會員中心</strong></div>
                <p class="border-bottom pb-13" >會員資料修改</p>
                <p>訂單查詢</p>
                <p>退/換貨申請</p>
-           
+           </div>
        </div>
        </div>
-       </div>
+    
+       
 
-       <div class="row  col-7">
-       <div class='center2 text-grey1'>
-        <p class="membertitle2"><strong>個人資料修改</strong></p>
-        <HR width=635 >
+     
+       <div class='col-7'>
+           <div class='center2 text-grey1'>
+        <p class="membertitle2 text-black"><strong>個人資料修改</strong></p>
+        <HR width=635>
         <form>
             <div class="form-group row">
-                <label for="staticEmail " class="col-sm-2 col-form-label">會員賬號</label>
-                <div class="example col-sm-10">
+                <label for="staticEmail " class="col-1 col-sm-2 col-form-label">會員賬號</label>
+                <div class="example col-2 col-sm-10">
                   <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
                 </div>
               </div>
-            <div class="form-group row col-7">
+            <div class="form-group row">
               <label for="inputname" class="col-1 col-sm-2 col-form-label ">會員名字</label>
-              <div class="col-4 col-sm-10">
+              <div class="col-6">
                 <input type="password" class="form-control border border-lightgrey" id="inputname" placeholder="name">
               </div>
             </div>
 
             <div class="form-group row">
-                <label for="sex" class="col-sm-2 col-form-label">會員性別</label>
-                <div class='col-sm-10'>
+                <label for="sex" class="col-1 col-md-2 col-form-label">會員性別</label>
+                <div class= ' col-2 col-sm-9 '>
                 <select class="form-control border-lightgrey" id="sex">
                   <option>女</option>
                   <option>男</option>
@@ -123,60 +126,119 @@
               </div>
             
               <div class="form-group row">
-                <label for="inputemail" class="col-sm-2 col-form-label ">電子郵箱</label>
-                <div class="col-sm-10">
+                <label for="inputemail" class="col-1 col-sm-2 col-form-label ">電子郵箱</label>
+                <div class="col-6 col-sm-10">
                   <input type="password" class="form-control border border-lightgrey" id="inputemail" placeholder="email@example.com">
                 </div>
               </div>
 
               <div class="form-group row">
-                <label for="phone" class="col-sm-2 col-form-label ">手機號碼</label>
+                <label for="phone" class="col-1 col-sm-2 col-form-label ">手機號碼</label>
                 <div class="col-sm-10">
                   <input type="password" class="form-control border border-lightgrey" id="phone" placeholder="Phone">
                 </div>
               </div>
 
-
-            <div class="form-group row">
+              <div class="form-group row">
+                <label for="sex" class="col-1 col-sm-2 col-form-label">聯絡地址</label>
+                <div class='form-group col-sm-10'>
+                <select class="form-control border-lightgrey" id="sex">
+                  <option>台灣及離島</option>
+                  <option>本地</option>
+                 
+                </select>
               
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    我願意收到最新優惠情報
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </div>
-            </div>
-          </form>
-    
-</div>
-</div>
+                <div class="form-group row">
+                    <div class="form-group  pt-2  col-4">
+                     
+                        <select id="inputcity" class="form-control border-lightgrey">
+                          <option selected>高雄市</option>
+                          <option>鳳山區</option>
+                        </select>
+                      </div>
+                      <div class="form-group pt-2 mb-2 col-4">
+                       
+                         <select id="inputState" class="form-control border-lightgrey" >
+                          <option selected>鹽埕區</option>
+                          <option>鳳山區</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-10 ">
+                        <input type="address" class="form-control border border-lightgrey" id="address" placeholder="請輸入地址">
+                                                  </div>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                              我願意收到最新優惠情報
+                            </label>
+                          </div>
+                    </div>
+                    
+                    </div>
+                   
 
-<div class="row  col-3">
+                    <div class="form-group row">
+                        <label for="sex" class="col-sm-2 col-form-label">配送地址</label>
+                        <div class='form-group col-sm-10'>
+                        <select class="form-control border-lightgrey" id="sex">
+                          <option>台灣及離島</option>
+                          <option>本地</option>
+                         
+                        </select>
+                      
+                        <div class="form-group row">
+                            <div class="form-group  pt-2  col-4">
+                             
+                                <select id="inputcity" class="form-control border-lightgrey">
+                                  <option selected>高雄市</option>
+                                  <option>鳳山區</option>
+                                </select>
+                              </div>
+                              <div class="form-group pt-2 mb-2 col-4">
+                               
+                                 <select id="inputState" class="form-control border-lightgrey" >
+                                  <option selected>鹽埕區</option>
+                                  <option>鳳山區</option>
+                                </select>
+                              </div>
+                              <div class="col-sm-10 ">
+                                <input type="address" class="form-control border border-lightgrey" id="address" placeholder="請輸入地址">
+                                                          </div>
+    <div class="mt-4 col-sm-10">
+                                                            <button type="submit" class="btn btn-primary">確定修改</button>
+                                                          </div>
+                                </div>
+                            
+                            </div>
+                            
+                        </div>
+
+                            </div>
+                           <div class='password'>
+                            <p class="membertitle2 text-black"><strong>個人資料修改</strong></p>
+                            <HR width=635 >
+                           </div>
+                           <div class="form-group row">
+                            <label for="phone" class="col-1 col-sm-2 col-form-label ">手機號碼</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control border border-lightgrey" id="phone" placeholder="Phone">
+                            </div>
+                          </div>
+
+                    </div>
+             
+
+
+
+<div class="col-3">
 <div class='center text-grey1  pl-11'>
     <div class="membertitle3"><strong>會員中心</strong></div>
     <p>會員資料修改</p>
     <p>訂單查詢</p>
     <p>退/換貨申請</p>
-
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
        </div>
 
@@ -192,9 +254,9 @@
 
 
 
-
-
-    
     </div>
+
+    </div>
+
        </body>
        </html>
