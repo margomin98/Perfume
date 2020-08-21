@@ -13139,7 +13139,7 @@ h3 {
 
 .index {
   background-size: cover;
-  background: url(/image/index.png) fixed no-repeat;
+  background: url(https://imgur.com/EUi2TLCage/index.png) fixed no-repeat;
   background-position: center;
   height: 920px;
   padding-top: 295px;
@@ -13233,7 +13233,7 @@ h3 {
 
 .index2 {
   background-position: fixed;
-  background: url(/image/index2.png) no-repeat;
+  background: url(https://imgur.com/KTiZ1q9) no-repeat;
   margin-top: 60px;
   height: 600px;
 }
@@ -13295,10 +13295,6 @@ h3 {
 }
 .apply .pw {
   padding-right: 80px;
-}
-
-.member {
-  padding-left: 150px;
 }
 
 .example {
