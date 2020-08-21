@@ -1,8 +1,6 @@
 $white:#ffff;
 
-.navbar{
-   height: 56px;
-}
+
 .index{
   background-size: cover;
     background: url(/image/index.png) fixed no-repeat;
@@ -40,22 +38,20 @@ $white:#ffff;
 .content1 .content2 .content3,.title{
 font-size: 32px;
 }
-.content2,.content4{
-  padding-left: 115px;
-  padding-right:89px;
-}
 .content2{
+  padding-left: 130px;
+  padding-right:89px;
   padding-top: 125px;
+
 }
 .content4{
   padding-top: 90px;
- 
+  margin-left: 80px;
   .item{
     font-size:50px;
   }
   .info{
     font-size: 16px;
- 
   }
 
   .plan{
@@ -68,16 +64,12 @@ font-size: 32px;
   }
 }
 
-.list{
- 
- background-color: #E0E0E0;
-background-size:auto;
-
  .card-title{
-   font-size:32px;
+   font-size:24px;
+   font-weight: bold;
  }
  
-}
+
 
 .sold{
   position: relative;
@@ -91,3 +83,15 @@ background-size:auto;
 
   }
 }
+
+.pic8{
+  padding-top: 132px;
+  padding-left: 10px;
+
+  .info{
+    font-size: 16px;
+  }
+}
+
+
+
