@@ -1,33 +1,33 @@
 .footer{
     height: 80px;
-    img{
-        padding-left: 200px;
-    }
-   .collapse{
-      padding-left: 200px;
-  }
  
 }
 
-.index2{
-    background-position:fixed;
-      background: url(https://i.imgur.com/KTiZ1q9.png);
+.footer1{
+background-size:cover;
+      background: url(https://serving.photos.photobox.com/7182037924d7b432a376e9ab379eba8ded2b7af479785cfecafdbf2b0c2179bf66b12113.jpg);
       background-repeat: no-repeat;
      margin-top:60px;
-   height: 600px;
+     height: 600px;
+     background-position: center;
+
 
    .remind{
     color: #8D8D8D;
   }
-   .subscribe{
   
-     padding-left: 200px;
-     padding-top: 312px;
-     
-   }
-   .h2{
+   p{
     color:  #8D8D8D;
+    font-weight: bolder;
+    font-size:32px;
    }
+  }
+
+  .footer1{
+    max-height: 600px;
+    padding-top: 312px;
+    width: 100%;
+    
   }
    .submit{
   

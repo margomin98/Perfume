@@ -89,6 +89,9 @@ $theme-colors: map-merge(
     "grey": #8D8D8D,
     "grey1": #848484,
     "lightgrey": #CED4DA,
+    "lightgrey1":#A5A5A5,
+    "lightgrey2":#818A91,
+    "white":#fff,
   ),
   $theme-colors
 );
@@ -156,6 +159,7 @@ $spacers: map-merge(
     11:($spacer * 1.875),//30px
    12:($spacer * 1.75),//28px
    13: ($spacer * .125),//2px
+   14: ($spacer * 2),//32px
   ),
   $spacers
 );
@@ -568,7 +572,7 @@ $custom-checkbox-indicator-border-radius:       $border-radius !default;
 $custom-checkbox-indicator-icon-checked:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'><path fill='#{$custom-control-indicator-checked-color}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/></svg>") !default;
 
 $custom-checkbox-indicator-indeterminate-bg:           $component-active-bg !default;
-$custom-checkbox-indicator-indeterminate-color:        #916000 !default;
+$custom-checkbox-indicator-indeterminate-color:        $custom-control-indicator-checked-color !default;
 $custom-checkbox-indicator-icon-indeterminate:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'><path stroke='#{$custom-checkbox-indicator-indeterminate-color}' d='M0 2h4'/></svg>") !default;
 $custom-checkbox-indicator-indeterminate-box-shadow:   null !default;
 $custom-checkbox-indicator-indeterminate-border-color: $custom-checkbox-indicator-indeterminate-bg !default;
