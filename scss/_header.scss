@@ -3,3 +3,13 @@
    
  }
 
+ .navbar { 
+    background-color: transparent;
+}
+.navbar.collapse {
+    display:flex;
+}
+.navbar.collapsing,
+.navbar.show {
+    background:white !important;
+}
