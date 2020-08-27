@@ -11,95 +11,122 @@
 </head>
 <body>
  
-  <div class="container-fluid">
-    <div class="row">
-     <div class="header d-flex justify-content-between col-md-12 col-sm">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
-         
-        <a class="logo navbar-brand" href="index.html">
-              <img src="image/logo@2.png" >
+  <nav class="header fixed-top navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+    <a class="logo navbar-brand" href="index.html">
+               <img src="image/logo@2.png" >
+           </a>
+       
+           <a class=" d-inline-block d-md-none" href="#">
+            <img src='image/shopping-cart.svg' class="shopcart">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse offset-7" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="product.html">
-                  <img src='image/tshirt.svg' class="d-none d-md-inline-block">
-                 Product
-                </a>
-              </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="login.html">
-                  <img src='image/user-alt.svg'  class="d-none d-md-inline-block">
-                 Log In
-                </a>
-              </li>
-              <li class="nav-item mr-2">
-                 <a class="nav-link" href="#">
-                  <img src='image/heart.svg'  class="d-none d-md-inline-block">
-                 Wishlist
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img src='image/shopping-cart.svg'  class="d-none d-md-inline-block">
-                  Cart(3)
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
+           
+     <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     
+     <div class="collapse navbar-collapse justify-content-end" id="navbarNav2">
+      <ul class="navbar-nav ">
+        <li class="nav-item order-1 order-lg-1" >
+          <a class="click nav-link border-bottom active" href="product.html">
+            <img src='image/tshirt.svg' class=" d-none d-md-inline-block">
+           Product
+          </a>
+        </li>
+     
+        <li class="nav-item mr-2 order-last order-lg-2">
+          <a class="nav-link active" href="login.html">
+            <img src='image/user-alt.svg'  class="d-none d-md-inline-block">
+           Log In
+          </a>
+        </li>
+        <li class="nav-item  order-2 order-lg-3 ">
+           <a class="click nav-link border-bottom active" href="#">
+            <img src='image/heart.svg'  class="d-none d-md-inline-block">
+           Wishlist
+          </a>
+        </li>
+        <li class="click nav-item  d-inline-block d-md-none order-4">
+          <a class="nav-link border-bottom" href="#">
+         Contact
+         </a>
+       </li>
+       
+        <li class="nav-item order-lg-4 d-none d-md-inline-block">
+          <a class="nav-link active" href="#">
+            <img src='image/shopping-cart.svg'>
+            Cart(3)
+          </a>
+        </li>
+        <li class="nav-item d-inline-block d-md-none order-3">
+          <a class="click nav-link border-bottom" href="#">
+            
+            Blog
+          </a>
+        </li>
+        
+      </ul>
+     </div>
+   </nav>
       
-        <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block">
+   <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block ">
+    <div class="container">  
+     <div class=" collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav">
+         <li class="nav-item active">
+           <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link text-white font-weight-light" href="#">Curology</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Dior</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Chloe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">ZARA</a>
+          </li>
          
-          <div class=" collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ">
-              <li class="nav-item active">
-                <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white font-weight-light" href="#">Curology</a>
-              </li>
-              <li class="nav-item">
-                 <a class="nav-link text-white font-weight-light" href="#">Dior</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link text-white font-weight-light" href="#">Chloe</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link text-white font-weight-light" href="#">ZARA</a>
-               </li>
-              
-            </ul>
-          </div>
-        </nav>
+       </ul>
+     </div>
+   </div>  
+   </nav>
+
+        
 
         <div class="container pt-10 pb-8">
-          <div class="row d-flex">
-          <div class=" col-sm-12 col-md-8">
-              <img src="image/CHANEL1.png"class="pic1 img-fluid">
-         </div>
-      
-     
-         <div class="pt-11 pb-11 col-12">
-          <img src="image/CHANEL2.png" class="pic2 img-fluid  pr-0 pr-lg-9">
-      <img src="image/CHANEL3.png" class="pic3  img-fluid">
-        </div>
-      
-         <div class="col-sm-12 col-md-8 d-none d-md-block">
-          <img src="image/CHANEL1.png"class="pic4 img-fluid " >
-        </div>
+          <div class="row">
+            <div class="col-12 col-md-8 ">
+               <img class="img-fluid d-block d-md-none " src="image/CHANEL1.png" alt="">
+            </div>
+          </div>      
+          <div class="row flex-column-reverse flex-md-row">
+            
+            <div class="col-12 col-md-8">
+              
+              <img class="img-fluid d-none d-md-block " src="image/CHANEL1.png" alt="">
+    
+               
+              <div class="row my-4">
+                <div class="col-12 col-md pb-3 pb-md-0">
+                  <img class="img-fluid" src="image/CHANEL2.png" alt="">
+                </div>
+                <div class="col-12 col-md">
+                  <img class="img-fluid" src="image/CHANEL3.png" alt="">
+                </div>
+              </div>
+            
+                  <img class="img-fluid " src="image/CHANEL1.png" alt="">
+         
+            </div>
          
             
-        <div class="col-sm-12 col-md-4  mt-12 mt-md-0 ">   
+        <div class="col-12 col-md-4  mt-12 mt-md-0 ">   
           <p class='h2'><strong>CHANEL N°5</strong></p>
           <p class='text-justify'>N°5，女性魅力的極致精髓。散發柔美
               <br>澄透的乙醛花束香氣。經典傳奇香氛，
@@ -115,13 +142,26 @@
             <option value="3">3</option>
             </select>
                     <button type="submit" class="btn btn-primary ">加入購物車</button> </div>
-              </div>
+            
+                  </div>
               
       
       <a data-toggle="modal" data-target="#exampleModalCenter">
       <img src="image/heart (2).svg">
       加入我的收藏
       </a>
+
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+          
+            <div class="modal-body d-block text-primary text-center">
+            <strong>已加入購物車</strong>
+            </div>
+            
+          </div>
+        </div>
+      </div>
       
       <p class="mt-16 mt-lg-10  mb-2"><strong>商品購買須知</strong></p>
       <p class='details mt-2'>產品因拍攝關係顏色可能略有差異，實際以廠商
@@ -144,12 +184,16 @@
       </div>
 </div>
 
-<nav class="footer navbar navbar-expand-lg navbar-light bg-primary ">
-  <img src='image/d’Perfumew.png'>
-       <small class="text-white font-weight-light pl-2">© 2020. All Rights Reserved.</small>
- 
+<nav class="footer navbar navbar-expand-lg navbar-light bg-primary col-12">
+  <div class="container">
+  <div class="">
+  <img src='image/d’Perfumew.png' class="mb-0">
+
+      </div>
+      <p class="copyright text-white font-weight-light mb-0 pl-md-2">© 2020. All Rights Reserved.</p>   
+
    <div class="collapse navbar-collapse d-sm-none d-md-inline-block justify-content-end" id="navbarNav">
-     <ul class="navbar-nav">
+     <ul class="navbar-nav col-md-5">
        <li class="nav-item active">
          <a class="nav-link text-white font-weight-light" href="product.html">Product</a>
        </li>
