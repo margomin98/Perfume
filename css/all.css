@@ -372,7 +372,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 h3, .h3 {
@@ -14975,38 +14975,29 @@ h3 {
   }
 }
 .header {
-  height: 70px;
+  height: 56px;
 }
 .header .shopcart {
   padding-left: 120px;
 }
+.header .choose ul li a:hover {
+  color: white;
+}
+.header .h1 {
+  float: left;
+}
+.header .logo a {
+  background-image: url(/image/logo@2.png);
+  display: block;
+  width: 128px;
+  height: 38px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
 
 .navbar-toggler {
   border: 0;
-}
-
-.brand {
-  height: 70px;
-  padding: 0;
-  padding-top: 2px;
-}
-
-.header {
-  position: relative;
-  z-index: 1;
-}
-
-.header .nav {
-  height: 50px;
-  color: #fff;
-  text-align: center;
-}
-
-.container {
-  position: relative;
-  z-index: 0;
-  margin: 10px auto;
-  height: auto;
 }
 
 @media (max-width: 767px) {
@@ -15021,7 +15012,7 @@ h3 {
   background-size: cover;
   background: url(https://serving.photos.photobox.com/6323099572c33671aa58b7ea8982f4147d1370d5a6b92cb21b9afe176ee9939f6ed339a1.jpg) fixed no-repeat;
   background-position: center;
-  height: 920px;
+  height: 870px;
   padding-top: 295px;
   color: #ffff;
 }
@@ -15042,30 +15033,14 @@ h3 {
   padding-top: 16px;
 }
 
-.content1 .content2 .content3, .title {
-  font-size: 32px;
-}
-
-.content4 .item {
-  font-size: 50px;
-}
-.content4 .info {
-  font-size: 16px;
+.content4 {
+  padding-top: 92px;
 }
 .content4 .plan {
   border-width: 2px;
   border-color: black;
   width: 350px;
   margin-top: 60px;
-}
-.content4 .title {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.card-title {
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .sold {
@@ -15124,13 +15099,12 @@ h3 {
   padding-top: 32px;
 }
 
-.order .addcart {
-  width: 300px;
-}
-
 .order .btn {
   font-size: 16px;
   width: 500px;
+}
+.order .addcart {
+  width: 300px;
 }
 
 .details {

@@ -5,7 +5,7 @@ $white:#ffff;
   background-size: cover;
     background: url(https://serving.photos.photobox.com/6323099572c33671aa58b7ea8982f4147d1370d5a6b92cb21b9afe176ee9939f6ed339a1.jpg) fixed no-repeat;
     background-position: center;
-   height: 920px;
+   height: 870px;
    padding-top:295px;
  color:$white;
 
@@ -28,18 +28,10 @@ $white:#ffff;
   padding-top: 16px;
 
 }
-.content1 .content2 .content3,.title{
-font-size: 32px;
-}
+
 
 .content4{
-  
-  .item{
-    font-size:50px;
-  }
-  .info{
-    font-size: 16px;
-  }
+  padding-top: 92px;
 
   .plan{
     border-width: 2px;
@@ -47,17 +39,9 @@ font-size: 32px;
    width: 350px;
     margin-top: 60px;
   }
-  .title{
-    font-size:24px;
-    font-weight: bold;
-
-  }
+ 
 }
 
- .card-title{
-   font-size:24px;
-   font-weight: bold;
- }
  
 
 
@@ -81,13 +65,3 @@ font-size: 32px;
 
 
 
-poppy{
-    display:block;
-  width: 100%;
-  height: 0;
-  padding-bottom:100%;
-  overflow:hidden;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size:cover;
-}

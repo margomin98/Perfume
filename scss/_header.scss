@@ -1,23 +1,32 @@
 .header{
-    height: 70px;
+    height: 56px;
     
     .shopcart{
         padding-left: 120px;
     }
     
+    .choose ul li a:hover{
+        color:white;
+    }
+    .h1{
+        float: left;
+    }
+
+    .logo a{
+        background-image: url(/image/logo@2.png);
+        display: block;
+     width: 128px;
+     height: 38px;
+text-indent: 101%;
+white-space: nowrap;
+overflow: hidden;
+    }
 }
 
 .navbar-toggler{
     border:0;
 }
-.brand{
-    height: 70px;
-padding: 0;
-padding-top: 2px;
-}
-.header{ position:relative; z-index:1 }
-.header .nav{  height:50px; color:#fff; text-align:center; }
-.container{ position:relative; z-index:0; margin:10px auto; height:auto; }
+
 
 
   @media (max-width: 767px) {
@@ -28,7 +37,7 @@ padding-top: 2px;
               text-align: center;
             
         } 
-         
+      
     }
 
   }
