@@ -372,7 +372,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 1.25rem;
+  font-size: 2rem;
 }
 
 h3, .h3 {
@@ -14987,7 +14987,7 @@ h3 {
   float: left;
 }
 .header .logo a {
-  background-image: url(/image/logo@2.png);
+  background-image: url(image/logo@2.png);
   display: block;
   width: 128px;
   height: 38px;
