@@ -14987,7 +14987,7 @@ h3 {
   float: left;
 }
 .header .logo a {
-  background-image: url(image/logo@2.png);
+  background-image: url(https://www.linkpicture.com/q/logo@2.png);
   display: block;
   width: 128px;
   height: 38px;
@@ -15000,6 +15000,18 @@ h3 {
   border: 0;
 }
 
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.banner {
+  position: relative;
+  z-index: 0;
+  margin: 10px auto;
+  height: 300px;
+}
+
 @media (max-width: 767px) {
   .navbar-collapse {
     background-color: #707070;
@@ -15010,7 +15022,7 @@ h3 {
 }
 .index {
   background-size: cover;
-  background: url(https://serving.photos.photobox.com/6323099572c33671aa58b7ea8982f4147d1370d5a6b92cb21b9afe176ee9939f6ed339a1.jpg) fixed no-repeat;
+  background: url(https://serving.photos.photobox.com/00250494172d168f8ea269ba4d17626635b301a733f117b1a845590c28ad010953b44f17.jpg) fixed no-repeat;
   background-position: center;
   height: 870px;
   padding-top: 295px;
@@ -15156,4 +15168,10 @@ h3 {
   border-color: lightgrey;
   border-width: 1px;
   outline: 0;
+}
+
+@media (max-width: 767px) {
+  ul li {
+    display: inline;
+  }
 }

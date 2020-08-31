@@ -11,9 +11,9 @@
     .h1{
         float: left;
     }
-
+    
     .logo a{
-        background-image: url(image/logo@2.png);
+        background-image: url(https://www.linkpicture.com/q/logo@2.png);
         display: block;
      width: 128px;
      height: 38px;
@@ -28,6 +28,15 @@ overflow: hidden;
 }
 
 
+.header{ 
+    position:relative;
+     z-index:1 }
+
+.banner{ 
+    position:relative;
+     z-index:0;
+      margin:10px auto; 
+      height:300px; }
 
   @media (max-width: 767px) {
     .navbar-collapse

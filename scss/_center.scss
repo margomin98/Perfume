@@ -42,3 +42,9 @@ padding-left: 47px;
     border-width: 1px;
     outline:0;
 }
+@media (max-width: 767px) {
+    ul li{
+        display: inline;
+    }
+
+  }
