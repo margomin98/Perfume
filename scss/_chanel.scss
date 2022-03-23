@@ -1,19 +1,21 @@
-.price{
+.price {
     padding-top: 32px;
 
 }
-.order{ 
 
-.btn{
+.order {
+
+    .btn {
+        font-size: 16px;
+        width: 500px;
+
+    }
+
+    .addcart {
+        width: 300px;
+    }
+}
+
+.details {
     font-size: 16px;
-    width: 500px;
-
-}.addcart{
-    width: 300px;
 }
-}
-
-.details{
-    font-size:16px;
-}
-
