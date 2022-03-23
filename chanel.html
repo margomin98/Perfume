@@ -1,58 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfume</title>
-    <link rel="stylesheet" href="css/all.css">
-    <script src='js/jquery-3.5.1.min.js'></script><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume</title>
+  <link rel="stylesheet" href="css/all.css">
+  <script src='js/jquery-3.5.1.min.js'></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </head>
+
 <body>
- 
-  <nav class="header fixed navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container">
-      <h1 class="logo">
-        <a href="index.html">
-                  D'Perfume
-               </a></h1>
-       
-           <a class=" d-inline-block d-md-none" href="#">
-            <img src='image/shopping-cart.svg' class="shopcart">
-          </a>
-           
-     <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     
-     <div class="collapse navbar-collapse justify-content-end" id="navbarNav2">
+
+
+
+  <nav class="header navbar-fixed-top navbar navbar-expand-lg navbar-light bg-white">
+
+    <a href="index.html" class="pl-2">
+      <img src="image/logo.png" alt="logo"></a>
+
+    <div class=" d-inline-block d-md-none pr-2">
+      <img src='image/shopping-cart.svg' class="shopcart" alt="logo">
+    </div>
+    <div class="toggleBtn">
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav2"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+    </div>
+
+
+    <div class="choose navbar-collapse collapse in justify-content-end" id="navbarNav2">
       <ul class="navbar-nav ">
-        <li class="nav-item order-1 order-lg-1" >
+        <li class="nav-item order-1 order-lg-1">
           <a class="click nav-link border-bottom active" href="product.html">
             <img src='image/tshirt.svg' class=" d-none d-md-inline-block" alt="product">
-           Product
+            Product
           </a>
         </li>
-     
+
         <li class="nav-item mr-2 order-last order-lg-2">
           <a class="nav-link active" href="login.html">
-            <img src='image/user-alt.svg'  class="d-none d-md-inline-block" alt="log in">
-           Log In
+            <img src='image/user-alt.svg' class="d-none d-md-inline-block" alt="log in">
+            Log In
           </a>
         </li>
         <li class="nav-item  order-2 order-lg-3 ">
-           <a class="click nav-link border-bottom active" href="#">
-            <img src='image/heart.svg'  class="d-none d-md-inline-block" alt="wishilist">
-           Wishlist
+          <a class="click nav-link border-bottom active" href="#">
+            <img src='image/heart.svg' class="d-none d-md-inline-block" alt="wishilist">
+            Wishlist
           </a>
         </li>
         <li class="click nav-item  d-inline-block d-md-none order-4" accesskey="contact">
-          <a class="nav-link border-bottom" href="#">
-         Contact
-         </a>
-       </li>
-       
+          <a class="nav-link border-bottom active" href="#">
+            Contact
+          </a>
+        </li>
+
         <li class="nav-item order-lg-4 d-none d-md-inline-block" accesskey="cart">
           <a class="nav-link active" href="#">
             <img src='image/shopping-cart.svg'>
@@ -60,30 +72,30 @@
           </a>
         </li>
         <li class="nav-item d-inline-block d-md-none order-3">
-          <a class="click nav-link border-bottom" href="#" alt="blog">
-            
+          <a class="click nav-link border-bottom active" href="#" alt="blog">
+
             Blog
           </a>
         </li>
-        
+
       </ul>
-     </div>
-   </nav>
-    
-   <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block ">
-    <div class="container">  
-     <div class=" collapse navbar-collapse" id="navbarNav">
-       <ul class="navbar-nav">
-         <li class="nav-item active">
-           <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-white font-weight-light" href="#">Curology</a>
-         </li>
-         <li class="nav-item">
+
+  </nav>
+
+  <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block ">
+    <div class="container">
+      <div class=" collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Curology</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-white font-weight-light" href="#">Dior</a>
           </li>
           <li class="nav-item">
@@ -92,129 +104,139 @@
           <li class="nav-item">
             <a class="nav-link text-white font-weight-light" href="#">ZARA</a>
           </li>
-         
-       </ul>
-     </div>
-   </div>  
-   </nav>
-        
 
-        <div class="container pt-10 pb-8">
-          <div class="row">
-            <div class="col-12 col-md-8 ">
-               <img class="img-fluid d-block d-md-none " src="image/CHANEL1.png" alt="chanel1">
-            </div>
-          </div>      
-          <div class="row flex-column-reverse flex-md-row">
-            
-            <div class="col-12 col-md-8">
-              
-              <img class="img-fluid d-none d-md-block " src="image/CHANEL1.png" alt="chanel1">
-    
-               
-              <div class="row my-4">
-                <div class="col-12 col-md pb-3 pb-md-0">
-                  <img class="img-fluid" src="image/CHANEL2.png" alt="chanel2">
-                </div>
-                <div class="col-12 col-md">
-                  <img class="img-fluid" src="image/CHANEL3.png" alt="chanel3">
-                </div>
-              </div>
-            
-                  <img class="img-fluid " src="image/CHANEL1.png" alt="chanel1">
-         
-            </div>
-         
-            
-        <div class="col-12 col-md-4  mt-12 mt-md-0 ">   
-          <h3><strong>CHANEL N°5</strong></h3>
-          <p class='text-justify'>N°5，女性魅力的極致精髓。散發柔美
-              <br>澄透的乙醛花束香氣。經典傳奇香氛，
-              <br>蘊藏於極簡設計的獨特瓶身。
-              </p>
-              <span class="price">NT$4,980</span>
-              <div class="order submit input-group  ">
-                <div class="addcart input-group-prepend ">
-                    <label class="choose" for="inlineFormCustomSelectPref"></label>
-            <select class="custom-select " id="inlineFormCustomSelectPref">
-            <option value='1'>1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            </select>
-                    <button type="submit" class="btn btn-primary ">加入購物車</button> </div>
-            
-                  </div>
-            
-      
-      <a data-toggle="modal" data-target="#exampleModalCenter">
-      <img src="image/heart (2).svg">
-      加入我的收藏
-      </a>
-
-     
-      
-
-      
-      <p class="mt-16 mt-lg-10  mb-2"><strong>商品購買須知</strong></p>
-      <p class='details mt-2'>產品因拍攝關係顏色可能略有差異，實際以廠商
-      <br>出貨為主。
-      <br>商品情境照為示意用，僅商品主體不包含其他配
-      <br>件，請以規格內容物為主。
-      <br>D’Perfume 盡可能確保所列商品備貨充足，但偶
-      <br>爾仍會有產品售罄的情況。如您所訂購的商品庫
-      <br>存不足，我們將盡快以電子郵件通知您。任何訂
-      <br>單變動均會在訂單總額與出貨訊息內更新。</p>
-      
-      
-      <p class="mt-9 mb-2"><strong>退換貨須知</strong></p>
-      <p class='details mt-2'>依《消費者保護法》的規定，於全站購物皆享有
-      <br>商品到貨【七日猶豫期】（含例假日）之權益。
-      <br>若收到的商品有任何問題，可於猶豫期內申請退
-      <br>貨。</p>
+        </ul>
       </div>
-      
+    </div>
+  </nav>
 
 
-
-      
+  <div class="container pt-10 pb-8">
+    <div class="row">
+      <div class="col-12 col-md-8 ">
+        <img class="img-fluid d-block d-md-none " src="image/CHANEL1.png" alt="chanel1">
       </div>
-</div>
+    </div>
+    <div class="row flex-column-reverse flex-md-row">
+
+      <div class="col-12 col-md-8">
+
+        <img class="img-fluid d-none d-md-block " src="image/CHANEL1.png" alt="chanel1">
 
 
-
-<nav class="footer navbar navbar-expand-lg navbar-light bg-primary col-12">
-  <div class="container">
-  <div class="">
-  <img src='image/d’Perfumew.png' class="mb-0">
-
-      </div>
-      <p class="copyright text-white font-weight-light mb-0 pl-md-2">© 2020. All Rights Reserved.</p>   
-
-   <div class="collapse navbar-collapse d-sm-none d-md-inline-block justify-content-end" id="navbarNav">
-     <ul class="navbar-nav col-md-5">
-       <li class="nav-item active">
-         <a class="nav-link text-white font-weight-light" href="product.html">Product</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white font-weight-light" href="#">Blog</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link text-white font-weight-light" href="#">Contact</a>
-       </li>
-       
-     </ul>
-   </div>
- </nav>
-       </body>
-       <div class="modal focus" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-          
-            <div class="modal-body d-block text-primary text-center">
-            <strong>已加入購物車</strong>
-            </div>
-            
+        <div class="row my-4">
+          <div class="col-12 col-md pb-3 pb-md-0">
+            <img class="img-fluid" src="image/CHANEL2.png" alt="chanel2">
+          </div>
+          <div class="col-12 col-md">
+            <img class="img-fluid" src="image/CHANEL3.png" alt="chanel3">
           </div>
         </div>
+
+        <img class="img-fluid " src="image/CHANEL1.png" alt="chanel1">
+
       </div>
-       </html>
+
+
+      <div class="col-12 col-md-4  mt-12 mt-md-0 ">
+        <h3><strong>CHANEL N°5</strong></h3>
+        <p class='text-justify'>N°5，女性魅力的極致精髓。散發柔美
+          <br>澄透的乙醛花束香氣。經典傳奇香氛，
+          <br>蘊藏於極簡設計的獨特瓶身。
+        </p>
+        <span class="price">NT$4,980</span>
+        <div class="order submit input-group  ">
+          <div class="addcart input-group-prepend ">
+            <label class="choose" for="inlineFormCustomSelectPref"></label>
+            <select class="custom-select " id="inlineFormCustomSelectPref">
+              <option value='1'>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <button type="submit" class="btn btn-primary ">加入購物車</button> </div>
+
+        </div>
+
+
+        <a data-toggle="modal" data-target="#exampleModalCenter">
+          <img src="image/heart (2).svg">
+          加入我的收藏
+        </a>
+
+
+
+
+
+        <p class="mt-16 mt-lg-10  mb-2"><strong>商品購買須知</strong></p>
+        <p class='details mt-2'>產品因拍攝關係顏色可能略有差異，實際以廠商
+          <br>出貨為主。
+          <br>商品情境照為示意用，僅商品主體不包含其他配
+          <br>件，請以規格內容物為主。
+          <br>D’Perfume 盡可能確保所列商品備貨充足，但偶
+          <br>爾仍會有產品售罄的情況。如您所訂購的商品庫
+          <br>存不足，我們將盡快以電子郵件通知您。任何訂
+          <br>單變動均會在訂單總額與出貨訊息內更新。</p>
+
+
+        <p class="mt-9 mb-2"><strong>退換貨須知</strong></p>
+        <p class='details mt-2'>依《消費者保護法》的規定，於全站購物皆享有
+          <br>商品到貨【七日猶豫期】（含例假日）之權益。
+          <br>若收到的商品有任何問題，可於猶豫期內申請退
+          <br>貨。</p>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid px-0 pt-7">
+    <div class="col footerImage d-flex align-items-center"
+      style="background-image: url('image/index2.png'); height: 600px;">
+      <div class="footerInfo ml-5">
+        <span class="subInfo" style="color: black;font-size: 20px;">記得
+          <br>訂閱以獲取更多資訊！</span>
+
+        <input type="text" class="form-control mt-3" placeholder="Your email address" aria-label="email"
+          aria-describedby="basic-addon1">
+        <button type="submit" class="btn btn-primary mt-3">Subscribe</button>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col footer text-center py-4" style="background-color: rgba(169, 84, 51, 0.868);">
+
+        <div class="footerContent ">
+          <p class="copyright text-white ">© 2022. Margo Chin</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<div class="modal focus" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body d-block text-primary text-center">
+        <strong>已加入購物車</strong>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</html>
