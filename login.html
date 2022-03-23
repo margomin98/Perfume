@@ -1,58 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfume</title>
-    <link rel="stylesheet" href="css/all.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume</title>
+  <link rel="stylesheet" href="css/all.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </head>
+
 <body>
 
-  <nav class="header fixed navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container">
-      <h1 class="logo">
-        <a href="index.html">
-                  D'Perfume
-               </a></h1>
-       
-           <a class=" d-inline-block d-md-none" href="#">
-            <img src='image/shopping-cart.svg' class="shopcart">
-          </a>
-           
-     <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     
-     <div class="collapse navbar-collapse justify-content-end" id="navbarNav2">
+
+
+  <nav class="header navbar-fixed-top navbar navbar-expand-lg navbar-light bg-white">
+
+    <a href="index.html" class="pl-2">
+      <img src="image/logo.png" alt="logo"></a>
+
+    <div class=" d-inline-block d-md-none pr-2">
+      <img src='image/shopping-cart.svg' class="shopcart" alt="logo">
+    </div>
+    <div class="toggleBtn">
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav2"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+    </div>
+
+
+    <div class="choose navbar-collapse collapse in justify-content-end" id="navbarNav2">
       <ul class="navbar-nav ">
-        <li class="nav-item order-1 order-lg-1" >
+        <li class="nav-item order-1 order-lg-1">
           <a class="click nav-link border-bottom active" href="product.html">
             <img src='image/tshirt.svg' class=" d-none d-md-inline-block" alt="product">
-           Product
+            Product
           </a>
         </li>
-     
+
         <li class="nav-item mr-2 order-last order-lg-2">
           <a class="nav-link active" href="login.html">
-            <img src='image/user-alt.svg'  class="d-none d-md-inline-block" alt="log in">
-           Log In
+            <img src='image/user-alt.svg' class="d-none d-md-inline-block" alt="log in">
+            Log In
           </a>
         </li>
         <li class="nav-item  order-2 order-lg-3 ">
-           <a class="click nav-link border-bottom active" href="#">
-            <img src='image/heart.svg'  class="d-none d-md-inline-block" alt="wishilist">
-           Wishlist
+          <a class="click nav-link border-bottom active" href="#">
+            <img src='image/heart.svg' class="d-none d-md-inline-block" alt="wishilist">
+            Wishlist
           </a>
         </li>
         <li class="click nav-item  d-inline-block d-md-none order-4" accesskey="contact">
-          <a class="nav-link border-bottom" href="#">
-         Contact
-         </a>
-       </li>
-       
+          <a class="nav-link border-bottom active" href="#">
+            Contact
+          </a>
+        </li>
+
         <li class="nav-item order-lg-4 d-none d-md-inline-block" accesskey="cart">
           <a class="nav-link active" href="#">
             <img src='image/shopping-cart.svg'>
@@ -60,30 +71,31 @@
           </a>
         </li>
         <li class="nav-item d-inline-block d-md-none order-3">
-          <a class="click nav-link border-bottom" href="#" alt="blog">
-            
+          <a class="click nav-link border-bottom active" href="#" alt="blog">
+
             Blog
           </a>
         </li>
-        
+
       </ul>
-     </div>
-   </nav>
-    
-   <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block ">
-    <div class="container">  
-     <div class=" collapse navbar-collapse" id="navbarNav">
-       <ul class="navbar-nav">
-         <li class="nav-item active">
-           <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-white font-weight-light" href="#">Curology</a>
-         </li>
-         <li class="nav-item">
+
+  </nav>
+
+
+  <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block ">
+    <div class="container">
+      <div class=" collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Curology</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-white font-weight-light" href="#">Dior</a>
           </li>
           <li class="nav-item">
@@ -92,72 +104,66 @@
           <li class="nav-item">
             <a class="nav-link text-white font-weight-light" href="#">ZARA</a>
           </li>
-         
-       </ul>
-     </div>
-   </div>  
-   </nav>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
-    <div class="container login mt-16 mt-md-10">
-            <div class="row d-flex">
-            <div class="col-md-8 col-sm-12">
-                <img src="image/login.png" class="img-fluid" alt="login">
-           </div>
-           
-               <div class="col-md-4 col-sm-12 align-self-center">
-               <div class='apply'>
-                <h3 class="mt-12"><strong>Log In</strong></h3>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">賬號</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
-                  
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">密碼</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="d-flex justify-content-between">
-                    <span class="pw text-primary "><strong>忘記密碼</strong></span>
-                <div>
-                  <a href="#" class="btn btn-outline-primary mr-2" role="button">註冊</a>
-                  <a href="center.html" class="btn btn-primary" role="button">登入</a>
-                </div></div></form>
-    
+  <div class="container login mt-16 mt-md-10">
+    <div class="row d-flex">
+      <div class="col-md-8 col-sm-12">
+        <img src="image/login.png" class="img-fluid" alt="login">
+      </div>
+
+      <div class="col-md-4 col-sm-12 align-self-center">
+        <div class='apply'>
+          <h3 class="mt-12"><strong>Log In</strong></h3>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">賬號</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="email@example.com">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">密碼</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="d-flex justify-content-between">
+              <span class="pw text-primary "><strong>忘記密碼</strong></span>
+              <div>
+                <a href="#" class="btn btn-outline-primary mr-2" role="button">註冊</a>
+                <a href="center.html" class="btn btn-primary" role="button">登入</a>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+
     </div>
-    
-    </div>
-    
   </div>
+
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col footer text-center py-4" style="background-color: rgba(169, 84, 51, 0.868);">
+
+        <div class="footerContent ">
+          <p class="copyright text-white ">© 2022. Margo Chin</p>
+
+        </div>
+      </div>
     </div>
+  </div>
 
-  
-      
-    <nav class="footer navbar navbar-expand-lg navbar-light bg-primary col-12">
-      <div class="container">
-      <div class="">
-      <img src='image/d’Perfumew.png' class="mb-0">
-    
-          </div>
-          <p class="copyright text-white font-weight-light mb-0 pl-md-2">© 2020. All Rights Reserved.</p>   
 
-       <div class="collapse navbar-collapse d-sm-none d-md-inline-block justify-content-end" id="navbarNav">
-         <ul class="navbar-nav col-md-5">
-           <li class="nav-item active">
-             <a class="nav-link text-white font-weight-light" href="product.html">Product</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link text-white font-weight-light" href="#">Blog</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link text-white font-weight-light" href="#">Contact</a>
-           </li>
-           
-         </ul>
-       </div>
-     </nav>
 
-    
 </body>
+
 </html>
