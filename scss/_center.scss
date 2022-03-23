@@ -1,50 +1,55 @@
-
-.userblack{
+.userblack {
     padding-right: 5px;
 }
-.example{
-    color:#818A91;
+
+.example {
+    color: #818A91;
 }
 
-.serial{
+.serial {
     font-size: 20px;
     padding-left: 6px;
 }
 
-.serial1 span{
-padding-left: 47px;
+.serial1 span {
+    padding-left: 47px;
 }
 
-.fav,.point {
-    span{
-    padding-left: 31px;}
-}
-
-.success,.code {
-    span{
-    padding-left: 15px;
+.fav,
+.point {
+    span {
+        padding-left: 31px;
     }
 }
 
-.remind{
+.success,
+.code {
+    span {
+        padding-left: 15px;
+    }
+}
+
+.remind {
     font-size: 14px;
 }
 
-.member-number{
+.member-number {
     padding-bottom: 40px;
 }
 
-.check{
+.check {
     font-size: 16px;
 }
-.form-control{
-    border-color:lightgrey;
+
+.form-control {
+    border-color: lightgrey;
     border-width: 1px;
-    outline:0;
+    outline: 0;
 }
+
 @media (max-width: 767px) {
-    ul li{
+    ul li {
         display: inline;
     }
 
-  }
+}
