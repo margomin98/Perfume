@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfume</title>
-    <link rel="stylesheet" href="css/all.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume</title>
+  <link rel="stylesheet" href="css/all.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
 </head>
+
 <body>
 
-  <nav class="header fixed navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container">
-      <h1 class="logo">
-        <a href="index.html">
-                  D'Perfume
-               </a></h1>
-       
-           <a class=" d-inline-block d-md-none" href="#">
-            <img src='image/shopping-cart.svg' class="shopcart">
-          </a>
-           
-     <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     
-     <div class="collapse navbar-collapse justify-content-end" id="navbarNav2">
+  <nav class="header navbar-fixed-top navbar navbar-expand-lg navbar-light bg-white">
+
+    <a href="index.html" class="pl-2">
+      <img src="image/logo.png" alt="logo"></a>
+
+    <div class=" d-inline-block d-md-none pr-2">
+      <img src='image/shopping-cart.svg' class="shopcart" alt="logo">
+    </div>
+    <div class="toggleBtn">
+      <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav2"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+    </div>
+
+
+    <div class="choose navbar-collapse collapse in justify-content-end" id="navbarNav2">
       <ul class="navbar-nav ">
-        <li class="nav-item order-1 order-lg-1" >
+        <li class="nav-item order-1 order-lg-1">
           <a class="click nav-link border-bottom active" href="product.html">
             <img src='image/tshirt.svg' class=" d-none d-md-inline-block" alt="product">
-           Product
+            Product
           </a>
         </li>
-     
+
         <li class="nav-item mr-2 order-last order-lg-2">
           <a class="nav-link active" href="login.html">
-            <img src='image/user-alt.svg'  class="d-none d-md-inline-block" alt="log in">
-           Log In
+            <img src='image/user-alt.svg' class="d-none d-md-inline-block" alt="log in">
+            Log In
           </a>
         </li>
         <li class="nav-item  order-2 order-lg-3 ">
-           <a class="click nav-link border-bottom active" href="#">
-            <img src='image/heart.svg'  class="d-none d-md-inline-block" alt="wishilist">
-           Wishlist
+          <a class="click nav-link border-bottom active" href="#">
+            <img src='image/heart.svg' class="d-none d-md-inline-block" alt="wishilist">
+            Wishlist
           </a>
         </li>
         <li class="click nav-item  d-inline-block d-md-none order-4" accesskey="contact">
-          <a class="nav-link border-bottom" href="#">
-         Contact
-         </a>
-       </li>
-       
+          <a class="nav-link border-bottom active" href="#">
+            Contact
+          </a>
+        </li>
+
         <li class="nav-item order-lg-4 d-none d-md-inline-block" accesskey="cart">
           <a class="nav-link active" href="#">
             <img src='image/shopping-cart.svg'>
@@ -60,30 +69,29 @@
           </a>
         </li>
         <li class="nav-item d-inline-block d-md-none order-3">
-          <a class="click nav-link border-bottom" href="#" alt="blog">
-            
+          <a class="click nav-link border-bottom active" href="#" alt="blog">
+
             Blog
           </a>
         </li>
-        
+
       </ul>
-     </div>
-   </nav>
-    
+
+  </nav>
   <nav class="brand navbar navbar-expand-lg navbar-light bg-primary d-none d-md-block ">
-    <div class="container">  
-     <div class=" collapse navbar-collapse" id="navbarNav">
-       <ul class="navbar-nav">
-         <li class="nav-item active">
-           <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link text-white font-weight-light" href="#">Curology</a>
-         </li>
-         <li class="nav-item">
+    <div class="container">
+      <div class=" collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link text-white font-weight-light" href="#">CHANEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Jo Malone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font-weight-light" href="#">Curology</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link text-white font-weight-light" href="#">Dior</a>
           </li>
           <li class="nav-item">
@@ -92,287 +100,283 @@
           <li class="nav-item">
             <a class="nav-link text-white font-weight-light" href="#">ZARA</a>
           </li>
-         
-       </ul>
-     </div>
-   </div>  
-   </nav>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="container">
     <ul class="list-unstyled">
-      
+
       <div class="row mt-5 ">
-         <div class="card col-6 col-md-3 pb-8">
-           <li>
-          <img src="image/pl1.png" class="card-img-top" alt="Poppy & Barley">
-          <div class="card-body">
-            <h3>Poppy & Barley</h3>
-            <p class="card-text">Jo Malone
-            <br><small>NT$1,380</small>
-            <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
-            <div class="icon d-flex">
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl1.png" class="card-img-top" alt="Poppy & Barley">
+            <div class="card-body">
+              <h3>Poppy & Barley</h3>
+              <p class="card-text">Jo Malone
+                <br><small>NT$1,380</small>
+                <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
+              <div class="icon d-flex">
                 <img src="image/heart (2).svg" class="heart">
-            <img src="image/shopping-cart (2).svg" class="cart">
+                <img src="image/shopping-cart (2).svg" class="cart">
+              </div>
             </div>
-          </div>
           </li>
         </div>
         <div class="card col-6 col-md-3 pb-8">
           <li>
-          <img src="image/pl2.png" class="card-img-top" alt="Poppy & Barley">
-          <div class="card-body">
-            <h3>Poppy & Barley</h3>
-            <p class="card-text">Jo Malone
-            <br><small>NT$1,380</small>
-            <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
-            <div class="icon d-flex">
-              <a data-toggle="modal" data-target="#exampleModalCenter">
-                <img src="image/heart (2).svg" class='heart pb-2'>
-              </a>
-              
-              
-              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-body d-block text-primary text-center"><strong>
-                      已加入我的收藏</strong>
+            <img src="image/pl2.png" class="card-img-top" alt="Poppy & Barley">
+            <div class="card-body">
+              <h3>Poppy & Barley</h3>
+              <p class="card-text">Jo Malone
+                <br><small>NT$1,380</small>
+                <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
+              <div class="icon d-flex">
+                <a data-toggle="modal" data-target="#exampleModalCenter">
+                  <img src="image/heart (2).svg" class='heart pb-2'>
+                </a>
+
+
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body d-block text-primary text-center"><strong>
+                          已加入我的收藏</strong>
+                      </div>
                     </div>
                   </div>
-                  </div>
                 </div>
-               
+
                 <a data-toggle="modal" data-target="#cart">
                   <img src="image/shopping-cart (2).svg" class='cart pb-2'>
                 </a>
-                
-                
-                
 
 
+
+
+
+              </div>
             </div>
-          </div>
           </li>
         </div>
         <div class="card col-6 col-md-3 pb-8">
           <li>
-          <img src="image/pl3.png" class="card-img-top" alt="Poppy & Barley">
-          <h3>Poppy & Barley</h3>
+            <img src="image/pl3.png" class="card-img-top" alt="Poppy & Barley">
+            <h3>Poppy & Barley</h3>
             <p class="card-text">Jo Malone
-            <br><small>NT$1,380</small>
+              <br><small>NT$1,380</small>
             </p>
             <div class="icon d-flex">
-                <img src="image/heart (2).svg" class="heart">
-            <img src="image/shopping-cart (2).svg" class="cart">
+              <img src="image/heart (2).svg" class="heart">
+              <img src="image/shopping-cart (2).svg" class="cart">
             </div>
-            </li>
+          </li>
         </div>
         <div class="card col-6 col-md-3 pb-8">
           <li>
             <img src="image/pl4.png" class="card-img-top" alt="Poppy & Barley">
             <h3>Poppy & Barley</h3>
             <p class="card-text">Jo Malone
-            <br><small>NT$1,380</small>
+              <br><small>NT$1,380</small>
             </p>
             <div class="icon d-flex">
-                <img src="image/heart (2).svg" class="heart">
-            <img src="image/shopping-cart (2).svg" class="cart">
-            </div>
-            </li>
-          </div>
-      </div>
-      </ul>
-    
-
-      <ul class="list-unstyled">
-    <div class="row">
-      
-       <div class="card col-6 col-md-3 pb-8">
-         <li>
-         <img src="image/pl1.png" class="card-img-top" alt="Poppy & Barley">
-         <div class="card-body">
-          <h3><strong>Poppy & Barley</strong></h3>
-           <p class="card-text">Jo Malone
-           <br><small>NT$1,380</small>
-           <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
-           <div class="icon d-flex">
-               <img src="image/heart (2).svg" class="heart">
-           <img src="image/shopping-cart (2).svg" class="cart">
-           </div>
-         </div>
-         </li>
-       </div>
-       <div class="card col-6 col-md-3 pb-8">
-         <li>
-                   <a href='chanel.html'><img src="image/pl6.png" class="card-img-top" alt="Poppy & Barley"></a>
-        <div class="card-body">
-          <h3>Poppy & Barley</h3>
-          <p class="card-text">Jo Malone
-          <br><small>NT$1,380</small>
-          <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
-          <div class="icon d-flex">
               <img src="image/heart (2).svg" class="heart">
-          <img src="image/shopping-cart (2).svg" class="cart">
-          </div>
-        </div>
-        </li>
-      </div>
-       <div class="card col-6 col-md-3 pb-8">
-         <li>
-         <img src="image/pl3.png" class="card-img-top" alt="Poppy & Barley">
-         <h3>Poppy & Barley</h3>
-           <p class="card-text">Jo Malone
-           <br><small>NT$1,380</small>
-           </p>
-           <div class="icon d-flex">
-               <img src="image/heart (2).svg" class="heart">
-           <img src="image/shopping-cart (2).svg" class="cart">
-           </div>
-           </li>
-       </div>
-       <div class="card col-6 col-md-3 pb-8">
-         <li>
-           <img src="image/pl4.png" class="card-img-top" alt="Poppy & Barley">
-           <h3>Poppy & Barley</h3>
-           <p class="card-text">Jo Malone
-           <br><small>NT$1,380</small>
-           </p>
-           <div class="icon d-flex">
-               <img src="image/heart (2).svg" class="heart">
-           <img src="image/shopping-cart (2).svg" class="cart">
-           </div>
-           </li>
-         </div>
-     
-   </div>
-</ul>
-
-<ul class="list-unstyled">
-     <div class="row">
-
-     <div class="card col-6 col-md-3 pb-8">
-<li>
-      <img src="image/pl1.png" class="card-img-top" alt="Poppy & Barley">
-       <div class="card-body">
-        <h3>Poppy & Barley</h3>
-         <p class="card-text">Jo Malone
-         <br><small>NT$1,380</small>
-         <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
-         <div class="icon d-flex">
-             <img src="image/heart (2).svg" class="heart">
-         <img src="image/shopping-cart (2).svg" class="cart">
-         </div>
-       </div>
-       </li>
-     </div>
-     <div class="card col-6 col-md-3 pb-8">
-       <li>
-      <a href='chanel.html'><img src="image/pl6.png" class="card-img-top" alt="Poppy & Barley"></a>
-      <div class="card-body">
-        <h3>Poppy & Barley</h3>
-                <p class="card-text">Jo Malone
-        <br><small>NT$1,380</small>
-        <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
-        <div class="icon d-flex">
-            <img src="image/heart (2).svg" class="heart">
-        <img src="image/shopping-cart (2).svg" class="cart">
-        </div>
-      </div>
-      </li>
-    </div>
-     <div class="card col-6 col-md-3 pb-8">
-       <li>
-       <img src="image/pl3.png" class="card-img-top" alt="Poppy & Barley">
-       <h3>Poppy & Barley</h3>
-         <p class="card-text">Jo Malone
-         <br><small>NT$1,380</small>
-         </p>
-         <div class="icon d-flex">
-             <img src="image/heart (2).svg" class="heart">
-         <img src="image/shopping-cart (2).svg" class="cart">
-         </div>
-         </li>
-     </div>
-     <div class="card col-6 col-md-3 pb-8">
-       <li>
-         <img src="image/pl4.png" class="card-img-top" alt="Poppy & Barley">
-         <h3>Poppy & Barley</h3>
-         <p class="card-text">Jo Malone
-         <br><small>NT$1,380</small>
-         </p>
-         <div class="icon d-flex">
-             <img src="image/heart (2).svg" class="heart">
-         <img src="image/shopping-cart (2).svg" class="cart">
-         </div>
-         </li>
-       </div>
-
- </div>
- </ul>
-      </div>
-</div>
-  </div>  
-
-      <nav aria-label="Page navigation example ">
-        <ul class="pagination  justify-content-center  ">
-          <li class="page-item">
-          <li class="page-item"><a class="page-link border-bottom" href="#"><strong>1</strong></a></li>
-          <li class="page-item"><a class="page-link border-0" href="#"><strong>2</strong></a></li>
-          <li class="page-item"><a class="page-link border-0" href="#"><strong>3</strong></a></li>
-          <li class="page-item">
-            
-          </li>
-        </ul>
-      </nav>
-    </div>
-
-
-<div class="container-fluid pl-0 pr-0  align-self-center footer1">
-      <div class="index2 col-md col-sm ">
-          <p>記得
-          <br>訂閱以獲取更多資訊！</p>
-          <div class="submit input-group">
-              <div class=" input-group-prepend">
-                  <input type="text" class="form-control" placeholder="Your email address" aria-label="email" aria-describedby="basic-addon1">
-                  <button type="submit" class="btn btn-primary">Subscribe</button> </div>
+              <img src="image/shopping-cart (2).svg" class="cart">
             </div>
-          
+          </li>
+        </div>
       </div>
-   
+    </ul>
+
+
+    <ul class="list-unstyled">
+      <div class="row">
+
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl1.png" class="card-img-top" alt="Poppy & Barley">
+            <div class="card-body">
+              <h3><strong>Poppy & Barley</strong></h3>
+              <p class="card-text">Jo Malone
+                <br><small>NT$1,380</small>
+                <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
+              <div class="icon d-flex">
+                <img src="image/heart (2).svg" class="heart">
+                <img src="image/shopping-cart (2).svg" class="cart">
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <a href='chanel.html'><img src="image/pl6.png" class="card-img-top" alt="Poppy & Barley"></a>
+            <div class="card-body">
+              <h3>Poppy & Barley</h3>
+              <p class="card-text">Jo Malone
+                <br><small>NT$1,380</small>
+                <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
+              <div class="icon d-flex">
+                <img src="image/heart (2).svg" class="heart">
+                <img src="image/shopping-cart (2).svg" class="cart">
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl3.png" class="card-img-top" alt="Poppy & Barley">
+            <h3>Poppy & Barley</h3>
+            <p class="card-text">Jo Malone
+              <br><small>NT$1,380</small>
+            </p>
+            <div class="icon d-flex">
+              <img src="image/heart (2).svg" class="heart">
+              <img src="image/shopping-cart (2).svg" class="cart">
+            </div>
+          </li>
+        </div>
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl4.png" class="card-img-top" alt="Poppy & Barley">
+            <h3>Poppy & Barley</h3>
+            <p class="card-text">Jo Malone
+              <br><small>NT$1,380</small>
+            </p>
+            <div class="icon d-flex">
+              <img src="image/heart (2).svg" class="heart">
+              <img src="image/shopping-cart (2).svg" class="cart">
+            </div>
+          </li>
+        </div>
+
+      </div>
+    </ul>
+
+    <ul class="list-unstyled">
+      <div class="row">
+
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl1.png" class="card-img-top" alt="Poppy & Barley">
+            <div class="card-body">
+              <h3>Poppy & Barley</h3>
+              <p class="card-text">Jo Malone
+                <br><small>NT$1,380</small>
+                <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
+              <div class="icon d-flex">
+                <img src="image/heart (2).svg" class="heart">
+                <img src="image/shopping-cart (2).svg" class="cart">
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <a href='chanel.html'><img src="image/pl6.png" class="card-img-top" alt="Poppy & Barley"></a>
+            <div class="card-body">
+              <h3>Poppy & Barley</h3>
+              <p class="card-text">Jo Malone
+                <br><small>NT$1,380</small>
+                <small class="text-muted ml-2"><s>NT$1,580</small></s></p>
+              <div class="icon d-flex">
+                <img src="image/heart (2).svg" class="heart">
+                <img src="image/shopping-cart (2).svg" class="cart">
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl3.png" class="card-img-top" alt="Poppy & Barley">
+            <h3>Poppy & Barley</h3>
+            <p class="card-text">Jo Malone
+              <br><small>NT$1,380</small>
+            </p>
+            <div class="icon d-flex">
+              <img src="image/heart (2).svg" class="heart">
+              <img src="image/shopping-cart (2).svg" class="cart">
+            </div>
+          </li>
+        </div>
+        <div class="card col-6 col-md-3 pb-8">
+          <li>
+            <img src="image/pl4.png" class="card-img-top" alt="Poppy & Barley">
+            <h3>Poppy & Barley</h3>
+            <p class="card-text">Jo Malone
+              <br><small>NT$1,380</small>
+            </p>
+            <div class="icon d-flex">
+              <img src="image/heart (2).svg" class="heart">
+              <img src="image/shopping-cart (2).svg" class="cart">
+            </div>
+          </li>
+        </div>
+
+      </div>
+    </ul>
+  </div>
+  </div>
+  </div>
+
+  <nav aria-label="Page navigation example ">
+    <ul class="pagination  justify-content-center  ">
+      <li class="page-item">
+      <li class="page-item"><a class="page-link border-bottom" href="#"><strong>1</strong></a></li>
+      <li class="page-item"><a class="page-link border-0" href="#"><strong>2</strong></a></li>
+      <li class="page-item"><a class="page-link border-0" href="#"><strong>3</strong></a></li>
+      <li class="page-item">
+
+      </li>
+    </ul>
+  </nav>
+  </div>
+
+  <div class="container-fluid px-0 pt-7">
+    <div class="col footerImage d-flex align-items-center"
+      style="background-image: url('image/index2.png'); height: 600px;">
+      <div class="footerInfo ml-5">
+        <span class="subInfo" style="color: black;font-size: 20px;">記得
+          <br>訂閱以獲取更多資訊！</span>
+
+        <input type="text" class="form-control mt-3" placeholder="Your email address" aria-label="email"
+          aria-describedby="basic-addon1">
+        <button type="submit" class="btn btn-primary mt-3">Subscribe</button>
+
+      </div>
+
+
+
     </div>
 
-      
-    <nav class="footer navbar navbar-expand-lg navbar-light bg-primary col-12">
-      <div class="container">
-      <div class="">
-      <img src='image/d’Perfumew.png' class="mb-0">
-    
-          </div>
-          <p class="copyright text-white font-weight-light mb-0 pl-md-2">© 2020. All Rights Reserved.</p>   
+  </div>
 
-       <div class="collapse navbar-collapse d-sm-none d-md-inline-block justify-content-end" id="navbarNav">
-         <ul class="navbar-nav col-md-5">
-           <li class="nav-item active">
-             <a class="nav-link text-white font-weight-light" href="product.html">Product</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link text-white font-weight-light" href="#">Blog</a>
-           </li>
-           <li class="nav-item">
-             <a class="nav-link text-white font-weight-light" href="#">Contact</a>
-           </li>
-           
-         </ul>
-       </div>
-     </nav>
- 
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col footer text-center py-4" style="background-color: rgba(169, 84, 51, 0.868);">
+
+        <div class="footerContent ">
+          <p class="copyright text-white ">© 2022. Margo Chin</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </body>
-<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-body d-block text-primary text-center"><strong>
-        已加入購物車</strong>
+          已加入購物車</strong>
       </div>
     </div>
-    </div>
   </div>
+</div>
+
 </html>
