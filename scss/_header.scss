@@ -1,54 +1,44 @@
-.header{
+.header {
     height: 56px;
-    background-color: pink;
-    .shopcart{
+    background-color: ;
+
+    .shopcart {
         padding-left: 120px;
     }
-    
-    .choose ul li a:hover{
-        color:white;
-    }
-    .h1{
-        float: left;
-    }
-    
-    .logo a{
-        background-image: url(https://www.linkpicture.com/q/logo@2.png);
-        display: block;
-     width: 128px;
-     height: 38px;
-text-indent: 101%;
-white-space: nowrap;
-overflow: hidden;
-    }
-}
 
-.navbar-toggler{
-    border:0;
+
+
+
 }
 
 
-.header{ 
-    position:relative;
-     z-index:1 }
 
-.banner{ 
-    position:relative;
-     z-index:0;
-      margin:10px auto; 
-      height:300px; }
+.navbar-toggler {
+    border: 0;
+}
 
-  @media (max-width: 767px) {
-    .navbar-collapse
-      {
-          background-color:#707070;
-          ul li{
-              text-align: center;
-            
-        } 
-      
+
+.header {
+    position: relative;
+    z-index: 1
+}
+
+.banner {
+    position: relative;
+    z-index: 0;
+    margin: 10px auto;
+    height: 300px;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: #707070;
+
+        ul li {
+            text-align: center;
+
+        }
+
     }
 
-  }
-
-  
+}
